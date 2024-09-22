@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.OverseeManagementController">
+   <left>
+      <VBox prefHeight="291.0" prefWidth="153.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="governmentFButton" mnemonicParsing="false" onAction="#governmentFButtonOnClick" prefHeight="25.0" prefWidth="153.0" text="Governance Framework " />
+            <Button fx:id="budgetButton" mnemonicParsing="false" onAction="#budgetButtonOnClick" prefHeight="25.0" prefWidth="153.0" text="budget" />
+            <Button fx:id="raButton" mnemonicParsing="false" onAction="#raButtonOnClick" prefHeight="25.0" prefWidth="153.0" text="risk assessment" />
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <AnchorPane prefHeight="66.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="230.0" layoutY="21.0" mnemonicParsing="false" text="Oversee Mannagement" />
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="43.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="backButton" layoutX="280.0" layoutY="17.0" mnemonicParsing="false" onAction="#backButtonOnClick" text="Back" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

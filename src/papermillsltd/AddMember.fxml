@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.AddMemberController">
+   <children>
+      <AnchorPane layoutX="-6.0" layoutY="1.0" prefHeight="400.0" prefWidth="602.0">
+         <children>
+            <Button fx:id="save" layoutX="227.0" layoutY="295.0" mnemonicParsing="false" onAction="#saveMember" text="Save" />
+            <Button fx:id="cancel" layoutX="324.0" layoutY="295.0" mnemonicParsing="false" onAction="#cancelTheAction" text="Cancel" />
+            <Label layoutX="143.0" layoutY="115.0" prefHeight="17.0" prefWidth="52.0" text="Name:" />
+            <Label layoutX="143.0" layoutY="163.0" prefHeight="17.0" prefWidth="52.0" text="ID:" />
+            <Label layoutX="143.0" layoutY="210.0" text="Department:" />
+            <TextField fx:id="nameField" layoutX="227.0" layoutY="111.0" />
+            <TextField fx:id="userIdField" layoutX="227.0" layoutY="159.0" />
+            <TextField fx:id="passwordinput" layoutX="227.0" layoutY="238.0" />
+            <Label layoutX="143.0" layoutY="242.0" text="Password" />
+            <ComboBox fx:id="departmentCombobox" layoutX="226.0" layoutY="206.0" onAction="#departmentComboboxOnClick" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

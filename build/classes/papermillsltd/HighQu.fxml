@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.HighQuController">
+   <children>
+      <Button layoutX="14.0" layoutY="333.0" mnemonicParsing="false" onAction="#FromHsales" text="Press to back" />
+      <Label layoutX="159.0" layoutY="49.0" />
+      <TextField fx:id="matname" layoutX="46.0" layoutY="45.0" promptText="Raw Material Name" />
+      <ComboBox fx:id="type" layoutX="46.0" layoutY="91.0" prefWidth="150.0" promptText="product type" />
+      <TextField fx:id="prodcode" layoutX="47.0" layoutY="140.0" promptText="product code" />
+      <TextArea fx:id="textarea" layoutX="361.0" layoutY="81.0" prefHeight="200.0" prefWidth="200.0" />
+      <Line endX="13.4000244140625" endY="265.20001220703125" layoutX="297.0" layoutY="130.0" startX="13.4000244140625" startY="-130.0" />
+      <Button layoutX="47.0" layoutY="188.0" mnemonicParsing="false" onAction="#add" text="Add" />
+      <Button layoutX="47.0" layoutY="232.0" mnemonicParsing="false" onAction="#file" text="File" />
+      <Button layoutX="403.0" layoutY="308.0" mnemonicParsing="false" onAction="#show" text="Show" />
+   </children>
+</AnchorPane>

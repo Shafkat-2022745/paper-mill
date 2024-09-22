@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.AnatrendsController">
+   <children>
+      <Button layoutX="33.0" layoutY="339.0" mnemonicParsing="false" onAction="#FtoSales" text="Press to back" />
+      <Text layoutX="127.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Label layoutX="136.0" layoutY="43.0" />
+      <TextField fx:id="papsize" layoutX="33.0" layoutY="39.0" promptText="Paper size" />
+      <Button layoutX="33.0" layoutY="185.0" mnemonicParsing="false" onAction="#Add" text="Add" />
+      <TextField fx:id="idea" layoutX="34.0" layoutY="143.0" promptText="Makings" />
+      <TableView fx:id="tableview" layoutX="290.0" layoutY="13.0" prefHeight="260.0" prefWidth="310.0">
+        <columns>
+          <TableColumn fx:id="col1" prefWidth="75.0" text="Paper Size" />
+          <TableColumn fx:id="col2" prefWidth="115.199951171875" text="Type" />
+            <TableColumn fx:id="id3" prefWidth="118.39999389648438" text="Makings quantity" />
+        </columns>
+      </TableView>
+      <Line endX="15.199981689453125" endY="313.20001220703125" layoutX="271.0" layoutY="78.0" startX="15.199981689453125" startY="-73.80000305175781" />
+      <RadioButton fx:id="white" layoutX="28.0" layoutY="85.0" mnemonicParsing="false" text="White paper">
+         <toggleGroup>
+            <ToggleGroup fx:id="p" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="news" layoutX="28.0" layoutY="113.0" mnemonicParsing="false" text="News print" toggleGroup="$p" />
+      <TextField fx:id="rem" layoutX="300.0" layoutY="292.0" promptText="write to remove" />
+      <Button layoutX="300.0" layoutY="327.0" mnemonicParsing="false" onAction="#remove" text="Remove" />
+   </children>
+</AnchorPane>

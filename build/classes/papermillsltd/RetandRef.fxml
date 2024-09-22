@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.RetandRefController">
+   <children>
+      <Label layoutX="140.0" layoutY="52.0" />
+      <Button layoutX="13.0" layoutY="346.0" mnemonicParsing="false" onAction="#CRfromrandr" text="Press to Back" />
+      <TextField fx:id="nm" layoutX="55.0" layoutY="36.0" promptText="Customer name" />
+      <TextField fx:id="addr" layoutX="56.0" layoutY="84.0" promptText="Customer Address" />
+      <RadioButton fx:id="ret" layoutX="247.0" layoutY="40.0" mnemonicParsing="false" text="Return">
+         <toggleGroup>
+            <ToggleGroup fx:id="f" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="ref" layoutX="248.0" layoutY="88.0" mnemonicParsing="false" text="Refund" toggleGroup="$f" />
+      <Line endX="338.0" endY="-1.52587890625E-5" layoutX="262.0" layoutY="156.0" startX="-262.0" startY="-1.52587890625E-5" />
+      <TextArea fx:id="textarea" layoutX="301.0" layoutY="156.0" prefHeight="243.0" prefWidth="300.0" />
+      <Button layoutX="214.0" layoutY="121.0" mnemonicParsing="false" onAction="#record" text="Press to record" />
+      <Button layoutX="111.0" layoutY="200.0" mnemonicParsing="false" onAction="#showA" text="Show All ret and ref" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.CultureController">
+   <children>
+      <Button layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#Bk" text="Back" />
+      <TextArea fx:id="screen" layoutX="84.0" layoutY="116.0" prefHeight="200.0" prefWidth="432.0" />
+      <TextField fx:id="name" layoutX="96.0" layoutY="23.0" promptText="Create Culture" />
+      <Button layoutX="471.0" layoutY="79.0" mnemonicParsing="false" onAction="#Add" text="Add" />
+      <Button layoutX="471.0" layoutY="336.0" mnemonicParsing="false" onAction="#Show" text="Show" />
+      <TextField fx:id="share" layoutX="360.0" layoutY="23.0" promptText="Delete Culture" />
+   </children>
+</AnchorPane>

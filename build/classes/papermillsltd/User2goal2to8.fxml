@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.User2goal2to8Controller">
+   <top>
+      <AnchorPane prefHeight="60.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="239.0" layoutY="22.0" text="Monitor">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="37.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="back" layoutX="274.0" layoutY="6.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back" />
+         </children>
+      </AnchorPane>
+   </bottom>
+   <left>
+      <VBox prefHeight="303.0" prefWidth="149.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="viewDetails" mnemonicParsing="false" onAction="#viewDetailsAction" prefHeight="25.0" prefWidth="154.0" text="View Employee" />
+            <Button fx:id="sp" mnemonicParsing="false" onAction="#spOnClick" prefHeight="25.0" prefWidth="151.0" text="Succession Plan" />
+            <Button fx:id="cb" mnemonicParsing="false" onAction="#cbOnClick" prefHeight="25.0" prefWidth="148.0" text="Compliance and Benifit" />
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

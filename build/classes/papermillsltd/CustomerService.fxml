@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.CustomerServiceController">
+   <children>
+      <Button layoutX="69.0" layoutY="75.0" mnemonicParsing="false" onAction="#RetAndRef" text="Returns And Refunds" />
+      <Button layoutX="69.0" layoutY="119.0" mnemonicParsing="false" onAction="#PorderAndShip" text="Process orders and shipments" />
+      <Button layoutX="334.0" layoutY="160.0" mnemonicParsing="false" onAction="#Coordinate" text="Coordinate with other departments" />
+      <Button layoutX="69.0" layoutY="160.0" mnemonicParsing="false" onAction="#Reslove" prefHeight="26.0" prefWidth="191.0" text="Resolve customer complaints" />
+      <Button layoutX="69.0" layoutY="242.0" mnemonicParsing="false" onAction="#ProductInfo" text="Provide product information" />
+      <Button layoutX="334.0" layoutY="75.0" mnemonicParsing="false" onAction="#Cusrecords" text="Manage customer records" />
+      <Button layoutX="69.0" layoutY="200.0" mnemonicParsing="false" onAction="#SalesOpp" text="sales opportunities" />
+      <Button layoutX="334.0" layoutY="119.0" mnemonicParsing="false" onAction="#Provide_Feedback" text="Provide feedback to other departments" />
+      <Button fx:id="logOut" layoutX="69.0" layoutY="308.0" mnemonicParsing="false" onAction="#presstoBack" text="LogOut" />
+      <Label layoutX="71.0" layoutY="26.0" text="DashBoard Of Customer service and representatives" textFill="#b90b0b">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

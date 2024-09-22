@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.CustFedController">
+   <children>
+      <Label layoutX="145.0" layoutY="31.0" />
+      <Button layoutX="14.0" layoutY="336.0" mnemonicParsing="false" onAction="#frtosales" text="Press to back" />
+      <TextField fx:id="cusn" layoutX="26.0" layoutY="36.0" promptText="Customer name" />
+      <TextField fx:id="cuse" layoutX="26.0" layoutY="77.0" promptText="Customer Email" />
+      <TextField fx:id="cusf" layoutX="26.0" layoutY="119.0" promptText="Customer feedback" />
+      <Line endX="1.20001220703125" endY="279.20001220703125" layoutX="286.0" layoutY="112.0" startX="1.20001220703125" startY="-112.0" />
+      <TextArea fx:id="textarea" layoutX="342.0" layoutY="62.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="31.0" layoutY="183.0" mnemonicParsing="false" onAction="#feedback" text="Add" />
+      <Button layoutX="416.0" layoutY="292.0" mnemonicParsing="false" onAction="#show" text="Show" />
+      <Button layoutX="24.0" layoutY="227.0" mnemonicParsing="false" onAction="#file" text="Add to file" />
+   </children>
+</AnchorPane>

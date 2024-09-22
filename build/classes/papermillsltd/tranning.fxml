@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.TranningController">
+   <children>
+      <Button layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#Bk" text="Back" />
+      <Button layoutX="229.0" layoutY="77.0" mnemonicParsing="false" onAction="#ShowPerformance" text="Show Performane Table" />
+      <TableView fx:id="tableview" layoutX="21.0" layoutY="138.0" prefHeight="200.0" prefWidth="555.0">
+        <columns>
+          <TableColumn fx:id="namecol" prefWidth="127.20001220703125" text="Name" />
+          <TableColumn fx:id="idcol" prefWidth="179.20001220703125" text="ID" />
+            <TableColumn fx:id="performancecol" prefWidth="246.4000122070313" text="Performance" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

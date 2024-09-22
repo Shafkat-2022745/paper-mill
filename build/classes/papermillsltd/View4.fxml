@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="305.0" prefWidth="422.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="papermillsltd.View4Controller">
+   <children>
+      <TextArea fx:id="ReadFromTextFile" layoutX="14.0" layoutY="14.0" prefHeight="238.0" prefWidth="381.0" />
+      <Button fx:id="showDetails" layoutX="350.0" layoutY="270.0" mnemonicParsing="false" onAction="#showDetailsOnClick" text="Show" />
+   </children>
+</AnchorPane>

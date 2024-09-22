@@ -1,0 +1,15 @@
+25,25,25,25
+1,2,5,2
+water:5,waste:5,safety:5,safety:5
+1,1,1,1
+aswater:,aswaste:,assafety:,asenergy:
+qwwater:,qwwaste:,qwsafety:,qwenergy:
+water:23,waste:23,safety:23,energy:23
+water:y,waste:y,safety:y,energy:y
+water:8,waste:8,safety:8,energy:8
+water:,waste:,safety:,energy:
+water:7,waste:7,safety:7,energy:7
+water:t5,waste:t5,safety:t5,energy:t5
+water:nakib,waste:a,safety:kib,energy:n
+water:late,waste:l,safety:ll,energy:lll
+water:koushik,waste:2,safety:4,energy:koushik1
